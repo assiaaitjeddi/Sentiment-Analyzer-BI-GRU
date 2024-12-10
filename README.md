@@ -65,14 +65,3 @@ Une interface utilisateur a été créée avec <b>Streamlit</b> pour tester le m
 <h2>🧪 Dataset utilisé</h2>
 <p>Les données utilisées dans ce projet proviennent de <a href="https://www.kaggle.com/datasets/mathurinache/goemotions">GoEmotions</a>.</p>
 
----
-
-<h2>📩 Contribution</h2>
-<p>Les contributions sont les bienvenues ! Si vous souhaitez améliorer ce projet, n'hésitez pas à ouvrir une pull request ou à soumettre un problème.</p>
-
----
-
-<h2>📜 Licence</h2>
-<p>Ce projet est sous licence MIT. Consultez le fichier <code>LICENSE</code> pour plus d'informations.</p>
-
----
