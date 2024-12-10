@@ -4,8 +4,8 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # Charger le modèle et le tokenizer
-model = load_model('sentiment model CNN.h5')
-tokenizer = joblib.load('text_tokenizer_cnn.joblib')
+model = load_model('sentiment model.h5')
+tokenizer = joblib.load('text_tokenizer.joblib')
 
 # Classes de prédiction et leurs styles
 classes = ['angry', 'fear', 'happy', 'neutral', 'sad', 'surprise']
