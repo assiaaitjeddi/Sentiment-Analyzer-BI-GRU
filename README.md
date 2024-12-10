@@ -23,7 +23,7 @@ Une interface utilisateur a été créée avec <b>Streamlit</b> pour tester le m
 <h2>🚀 Fonctionnalités</h2>
 <ul>
   <li>🧪 <b>Classification des textes</b> en six émotions principales.</li>
-  <li>🧠 Entraînement de modèles avancés : <b>RNN</b>, <b>LSTM</b>, et <b>GRU</b>.</li>
+  <li>🧠 Entraînement de modèle avancé : <b>LSTM</b>.</li>
   <li>🔄 <b>Prétraitement des données</b> :
     <ul>
       <li>Suppression des stopwords.</li>
@@ -52,34 +52,6 @@ Une interface utilisateur a été créée avec <b>Streamlit</b> pour tester le m
 
 ---
 
-<h2>📦 Installation</h2>
-<ol>
-  <li>Clonez ce dépôt sur votre machine locale :
-    <pre><code>git clone https://github.com/votre-utilisateur/sentiment-analysis.git</code></pre>
-  </li>
-  <li>Accédez au répertoire du projet :
-    <pre><code>cd sentiment-analysis</code></pre>
-  </li>
-  <li>Créez et activez un environnement virtuel :
-    <pre><code>
-# Sur macOS/Linux
-python -m venv env
-source env/bin/activate
-
-# Sur Windows
-python -m venv env
-env\Scripts\activate
-</code></pre>
-  </li>
-  <li>Installez les dépendances nécessaires :
-    <pre><code>pip install -r requirements.txt</code></pre>
-  </li>
-  <li>Lancez l'interface utilisateur Streamlit :
-    <pre><code>streamlit run app.py</code></pre>
-  </li>
-</ol>
-
----
 
 <h2>📊 Résultats & Visualisations</h2>
 <h3>Exemple d'interface utilisateur :</h3>
@@ -103,6 +75,4 @@ env\Scripts\activate
 <h2>📜 Licence</h2>
 <p>Ce projet est sous licence MIT. Consultez le fichier <code>LICENSE</code> pour plus d'informations.</p>
 
---- 
-
-
+---
