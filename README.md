@@ -55,9 +55,9 @@ Une interface utilisateur a été créée avec <b>Streamlit</b> pour tester le m
 
 <h2>📊 Résultats & Visualisations</h2>
 <h3>Exemple d'interface utilisateur :</h3>
-- Pour la classe Sad :
+- Pour la classe Angry :
   <img src="images/image.png" alt="Capture d'écran de l'interface" width="600"/>
-- Pour la classe Angry : 
+- Pour la classe Surprise : 
   <img src="images/image1.png" alt="Capture d'écran de l'interface" width="600"/>
 
 ---
