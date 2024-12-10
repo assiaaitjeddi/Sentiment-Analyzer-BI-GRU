@@ -55,8 +55,10 @@ Une interface utilisateur a été créée avec <b>Streamlit</b> pour tester le m
 
 <h2>📊 Résultats & Visualisations</h2>
 <h3>Exemple d'interface utilisateur :</h3>
-<img src="images/image.png" alt="Capture d'écran de l'interface" width="600"/><br>
-<img src="images/image1.png" alt="Capture d'écran de l'interface" width="600"/>
+<div style="display: flex;">
+  <img src="images/image.png" alt="Capture d'écran de l'interface" width="600"/>
+  <img src="images/image1.png" alt="Capture d'écran de l'interface" width="600"/>
+</div>
 
 ---
 
