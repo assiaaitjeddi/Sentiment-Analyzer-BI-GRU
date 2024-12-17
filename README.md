@@ -14,7 +14,8 @@ The goal is to classify texts into different emotions, including:
   <li>😐 <b>Neutral</b></li>
 </ul>
 <p>
-The data is sourced from the <a href="https://www.kaggle.com/datasets/nelgiriyewithana/emotions">Emotions</a> dataset, a rich dataset for emotion analysis.  
+The data is sourced from the <a href="https://www.kaggle.com/datasets/nelgiriyewithana/emotions">Emotions</a> dataset for BI-GRU, a rich dataset for emotion analysis.  
+The data is sourced from the <a href="https://www.kaggle.com/datasets/debarshichanda/goemotions">GoEmotions</a> dataset for LSTM.
 A user interface has been created with <b>Streamlit</b> to test the model in real-time.
 </p>
 
