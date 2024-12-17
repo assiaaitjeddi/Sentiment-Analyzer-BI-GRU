@@ -2,60 +2,59 @@
 
 <h2>📌 Description</h2>
 <p>
-Ce projet utilise des <b>modèles de réseaux de neurones séquentiels</b> tels que <b>RNN</b>, <b>LSTM</b>, et <b>GRU</b> pour effectuer une <b>analyse des sentiments</b>.  
-L'objectif est de classer les textes en différentes émotions, notamment :  
+This project utilizes <b>sequential neural network models</b> such as <b>RNN</b>, <b>LSTM</b>, and <b>GRU</b> to perform <b>sentiment analysis</b>.  
+The goal is to classify texts into different emotions, including:  
 </p>
 <ul>
-  <li>😡 <b>Colère (Angry)</b></li>
-  <li>😨 <b>Peur (Fear)</b></li>
-  <li>😄 <b>Joie (Happy)</b></li>
-  <li>😢 <b>Tristesse (Sad)</b></li>
-  <li>😲 <b>Surprise (Surprise)</b></li>
-  <li>😐 <b>Neutre (Neutral)</b></li>
+  <li>😡 <b>Anger</b></li>
+  <li>😨 <b>Fear</b></li>
+  <li>😄 <b>Happiness</b></li>
+  <li>😢 <b>Sadness</b></li>
+  <li>😲 <b>Surprise</b></li>
+  <li>😐 <b>Neutral</b></li>
 </ul>
 <p>
-Les données proviennent du dataset <a href="https://www.kaggle.com/datasets/mathurinache/goemotions">GoEmotions</a>, un jeu de données riche pour l'analyse des émotions.  
-Une interface utilisateur a été créée avec <b>Streamlit</b> pour tester le modèle en temps réel.
+The data is sourced from the <a href="https://www.kaggle.com/datasets/nelgiriyewithana/emotions">Emotions</a> dataset, a rich dataset for emotion analysis.  
+A user interface has been created with <b>Streamlit</b> to test the model in real-time.
 </p>
 
 ---
 
-<h2>🚀 Fonctionnalités</h2>
+<h2>🚀 Features</h2>
 <ul>
-  <li>🧪 <b>Classification des textes</b> en six émotions principales.</li>
-  <li>🧠 Entraînement de modèle avancé : <b>LSTM</b>.</li>
-  <li>🔄 <b>Prétraitement des données</b> :
+  <li>🧪 <b>Text classification</b> into six main emotions.</li>
+  <li>🧠 Advanced model training using <b>LSTM</b>.</li>
+  <li>🔄 <b>Data preprocessing</b>:
     <ul>
-      <li>Suppression des stopwords.</li>
-      <li>Lemmatization des textes.</li>
-      <li>Nettoyage et tokenization.</li>
+      <li>Stopword removal.</li>
+      <li>Text lemmatization.</li>
+      <li>Cleaning and tokenization.</li>
     </ul>
   </li>
-  <li>⚙️ Gestion des données déséquilibrées grâce à l’<b>upsampling</b>.</li>
-  <li>🌐 Interface interactive développée avec <b>Streamlit</b>.</li>
+  <li>⚙️ Handling imbalanced data through <b>upsampling</b>.</li>
+  <li>🌐 Interactive interface developed with <b>Streamlit</b>.</li>
 </ul>
 
 ---
 
-<h2>📂 Technologies utilisées</h2>
-<p>Voici les principales bibliothèques et frameworks utilisés dans ce projet :</p>
+<h2>📂 Technologies Used</h2>
+<p>Here are the main libraries and frameworks used in this project:</p>
 <ul>
   <li><b>Python 3.8+</b></li>
-  <li><a href="https://streamlit.io/">Streamlit</a> - Pour l'interface utilisateur.</li>
-  <li><a href="https://www.tensorflow.org/">TensorFlow/Keras</a> - Pour les modèles de réseaux de neurones.</li>
-  <li><a href="https://pandas.pydata.org/">Pandas</a> - Manipulation des données.</li>
-  <li><a href="https://numpy.org/">NumPy</a> - Calculs numériques.</li>
-  <li><a href="https://plotly.com/python/">Matplotlib & Plotly</a> - Visualisation des résultats.</li>
-  <li><a href="https://www.nltk.org/">NLTK</a> - Prétraitement du texte.</li>
-  <li><a href="https://scikit-learn.org/">Sklearn</a> - Préparation des données et encodage des labels.</li>
+  <li><a href="https://streamlit.io/">Streamlit</a> - For the user interface.</li>
+  <li><a href="https://www.tensorflow.org/">TensorFlow/Keras</a> - For neural network models.</li>
+  <li><a href="https://pandas.pydata.org/">Pandas</a> - Data manipulation.</li>
+  <li><a href="https://numpy.org/">NumPy</a> - Numerical computations.</li>
+  <li><a href="https://plotly.com/python/">Matplotlib & Plotly</a> - Results visualization.</li>
+  <li><a href="https://www.nltk.org/">NLTK</a> - Text preprocessing.</li>
+  <li><a href="https://scikit-learn.org/">Sklearn</a> - Data preparation and label encoding.</li>
 </ul>
 
 ---
 
-
-<h2>📊 Résultats & Visualisations</h2>
-<h3>Exemple d'interface utilisateur :</h3>
-- Pour la classe Angry :
-  <img src="images/image.png" alt="Capture d'écran de l'interface" width="600"/>
-- Pour la classe Surprise : 
-  <img src="images/image1.png" alt="Capture d'écran de l'interface" width="600"/>
+<h2>📊 Results & Visualizations</h2>
+<h3>User Interface Example:</h3>
+- For the Angry class:  
+  <img src="images/image.png" alt="Screenshot of the interface" width="600"/>  
+- For the Surprise class:  
+  <img src="images/image1.png" alt="Screenshot of the interface" width="600"/>
