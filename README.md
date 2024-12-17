@@ -23,7 +23,7 @@ A user interface has been created with <b>Streamlit</b> to test the model in rea
 <h2>🚀 Features</h2>
 <ul>
   <li>🧪 <b>Text classification</b> into six main emotions.</li>
-  <li>🧠 Advanced model training using <b>BI-GRU</b>.</li>
+  <li>🧠 Advanced model training using <b>LSTM | BI-GRU</b>.</li>
   <li>🔄 <b>Data preprocessing</b>:
     <ul>
       <li>Stopword removal.</li>
