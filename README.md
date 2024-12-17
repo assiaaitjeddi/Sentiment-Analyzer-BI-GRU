@@ -59,9 +59,3 @@ Une interface utilisateur a été créée avec <b>Streamlit</b> pour tester le m
   <img src="images/image.png" alt="Capture d'écran de l'interface" width="600"/>
 - Pour la classe Surprise : 
   <img src="images/image1.png" alt="Capture d'écran de l'interface" width="600"/>
-
----
-
-<h2>🧪 Dataset utilisé</h2>
-<p>Les données utilisées dans ce projet proviennent de <a href="https://www.kaggle.com/datasets/mathurinache/goemotions">GoEmotions</a>.</p>
-
